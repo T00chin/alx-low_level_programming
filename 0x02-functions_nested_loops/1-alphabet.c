@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * print_alphabet - prints all alphabets in lower
  * Return: On success 1.
  */
 void print_alphabet(void)
