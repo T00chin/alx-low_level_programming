@@ -4,7 +4,7 @@
  * @c - character to check if it's lowercase.
  * Return: 0 if lowercase, 1 if not.
  */
-int_islower(int c)
+void int_islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
