@@ -15,11 +15,13 @@ int _sqrt_recursion(int n)
 	else
 	{
 		int i;
-		for (i = 1; i <= n / 2; n++)
-		{
-			if (i * i == n)
-				return (i);
-		}
-		return (_sqrt_recursion(n - 1));
+		if (i * i == n)
+			return (i);
+		else if (i * i > n)
+			return (-1);
+		else
+			if (i * i < n)
+				i++;
+		return (sqrt_recursion(n));
 	}
 }
