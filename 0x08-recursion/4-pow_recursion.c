@@ -2,8 +2,8 @@
 
 /**
  * _pow_recursion - returns the power of integers
- * @x: integer to be powered
- * @s: power integer
+ * @x: the base value
+ * @y: the exponent
  *
  * Return: value of x power y
  */
