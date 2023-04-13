@@ -29,9 +29,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (result == NULL)
 		return (NULL);
 
-	strncpy(result, s1, l1);
-	strncpy(result + l1, s2, l - l1);
-	result[l] = '\0';
 	free(result);
 
 
