@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * array_iterator - executes function as a parameter on each array element
+ * array_iterator - executes function as a parameter on each array el.
  * @array: array of integers
  * @size: size of the array
  * @action: pointer to the function to be used
