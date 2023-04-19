@@ -10,27 +10,7 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
+	if (name == NULL || f == NULL)
+		return;
 	(*f)(name);
-}
-
-/**
- * string - print string
- * @str: string containing name
- */
-void string(char *str)
-{
-	printf("%s\n", str);
-}
-
-/**
- * main - call to print name
- *
- * Return: 0.
- */
-int main(void)
-{
-	char name[] = "Brian Toochin";
-
-	print_name(name, string);
-	return (0);
 }
