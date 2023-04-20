@@ -17,7 +17,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 
 	if (argc != 4)
 	{
-		printf("Erro\n");
+		printf("Error\n");
 		exit(98);
 	}
 	x = atoi(argv[1]);
