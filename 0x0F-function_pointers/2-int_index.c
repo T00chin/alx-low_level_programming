@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * int_index - returns the index of the first element 
+ * int_index - returns the index of the first elemen
  * for which the cmp function does not return 0
  * @array: array
  * @size: number of elements in array
