@@ -10,12 +10,11 @@
  *
  * Return: 0.
  */
-int main(int argc, char *argv[])
+int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	int x, y;
 	char  *sop;
 
-	(void) argc;
 	if (argc != 4)
 	{
 		printf("Erro\n");
