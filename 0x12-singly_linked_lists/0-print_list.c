@@ -2,7 +2,7 @@
 
 /**
  * print_list - prints lists of elements
- * @: pointer to the head of the list
+ * @h: pointer to the head of the list
  *
  * Return: number of nodes
  */
