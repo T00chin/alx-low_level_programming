@@ -11,6 +11,9 @@ size_t print_listint_safe(const listint_t *head)
 	size_t nodes = 0;
 	long int diff;
 
+	if (head == NULL || head->next == NULL)
+		return (0);
+
 	while (head)
 	{
 		diff = head - head->next;
