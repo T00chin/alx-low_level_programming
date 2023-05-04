@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stddef.h>
 
 /**
  * print_listint_safe - prints a listint_t linked list
@@ -9,11 +10,10 @@
 size_t print_listint_safe(const listint_t *head)
 {
 	size_t nodes = 0;
-	long int diff;
+	ptrdiff_t diff;
 
 	if (head == NULL || head->next == NULL)
 		return (0);
-
 	while (head)
 	{
 		diff = head - head->next;
